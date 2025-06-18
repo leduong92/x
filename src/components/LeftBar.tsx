@@ -54,7 +54,7 @@ const menuList = [
     {
         id: 9,
         name: "Profile",
-        link: "/",
+        link: "/user",
         icon: "profile.svg",
     },
     {
