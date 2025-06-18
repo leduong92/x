@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import PostInfo from './PostInfo'
+import PostInteractions from './PostInteractions'
 
 const Post = () => {
     return (
@@ -23,11 +24,11 @@ const Post = () => {
                         </div>
                         <PostInfo />
                     </div>
-
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eos ratione dignissimos reiciendis commodi veniam harum consectetur assumenda vel odio voluptas numquam repellat rem dolorum, magnam excepturi non? Dolore, facilis.
                     </p>
                     <Image src={`/general/post.jpeg`} alt="" width={600} height={600} />
+                    <PostInteractions />
                 </div>
             </div>
         </div>
